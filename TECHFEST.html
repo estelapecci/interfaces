@@ -1,11 +1,128 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>TechFest 2026</title>
 </head>
 <body>
-    
+
+    <!--header: contendrá el nombre de la feria y un pequeño eslogan.-->
+    <header>
+        <h1>TechFest 2026</h1>
+        <p>Donde la tecnología del futuro cobra vida</p>
+    </header>
+
+    <!--nav: incluirá un menú de navegación con enlaces a las distintas secciones.-->
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#actividades">Actividades</a></li>
+            <li><a href="#entradas">Entradas</a></li>
+            <li><a href="#ubicacion">Ubicación</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!--main: contendrá el contenido principal de la página.-->
+    <main id="inicio">
+        <h2>Presentación del evento</h2>
+        <p>TechFest 2026 es la feria tecnológica que reúne a empresas, estudiantes y desarrolladores durante tres días en Cádiz.</p>
+
+        <!--time: fecha y horario del evento-->
+        <p>
+            Fecha: del
+            <time datetime="2026-10-15">15</time> al
+            <time datetime="2026-10-17">17 de octubre de 2026</time>
+        </p>
+        <p>
+            Horario: de
+            <time datetime="10:00">10:00</time> a
+            <time datetime="20:00">20:00</time> h
+        </p>
+
+        <!--figure y figcaption: imagen con su descripción-->
+        <figure>
+            <img src="images.jfif" alt="Imagen de la feria TechFest 2026">
+            <figcaption>Recinto de la feria TechFest 2026</figcaption>
+        </figure>
+
+        <section id="actividades">
+            <h2>Actividades</h2>
+            <ul>
+                <li>Taller de programación </li>
+                <li>Taller de robótica</li>
+                <li>Taller de realidad virtual</li>
+            </ul>
+
+            <h3>Ponentes</h3>
+            <article>
+                <h4>Elisabeth Falcón</h4>
+                <p>Experta en inteligencia artificial.</p>
+            </article>
+            <article>
+                <h4>Nicolás García</h4>
+                <p>Ingeniero de ciberseguridad.</p>
+            </article>
+        </section>
+
+        <section id="entradas">
+            <h2>Entradas</h2>
+            <!--data: valor legible por máquinas asociado al precio-->
+            <ul>
+                <li>General: <data value="10">10 €</data></li>
+                <li>Estudiante: <data value="5">5 €</data></li>
+                <li>Pase completo: <data value="20">20 €</data></li>
+            </ul>
+        </section>
+
+        <section id="ubicacion">
+            <h2>Ubicación</h2>
+            <!--address: dirección física del recinto-->
+            <address>
+                Palacio de Congresos de Cádiz<br>
+                Plaza de España, 28<br>
+                11004 Cádiz
+            </address>
+        </section>
+
+        <section id="faq">
+            <h2>Preguntas frecuentes</h2>
+            <!--details y summary: apartados desplegables-->
+            <details>
+                <summary>¿Dónde se celebra?</summary>
+                <p>En el Palacio de Congresos de Cádiz.</p>
+            </details>
+            <details>
+                <summary>¿Cuál es el horario?</summary>
+                <p>De 10:00 a 20:00 h.</p>
+            </details>
+            <details>
+                <summary>¿Hay descuentos para estudiantes?</summary>
+                <p>Sí, la entrada de estudiante cuesta 5 €.</p>
+            </details>
+        </section>
+    </main>
+
+    <!--aside: incluirá información complementaria, como noticias o datos destacados.-->
+    <aside>
+        <h2>Noticias y datos destacados</h2>
+        <ul>
+            <li>Más de 50 empresas expositoras</li>
+            <li>Inscripciones abiertas para el taller de programación</li>
+            <li>Aforo: 5.000 personas</li>
+        </ul>
+    </aside>
+
+    <!--footer: contendrá los datos del organizador y el copyright.-->
+    <footer id="contacto">
+        <p>Organiza: Asociación TechFest</p>
+        <address>
+            Contacto: <a href="mailto:info@techfest2026.es">info@techfest2026.es</a><br>
+            Tel.: 956 000 000
+        </address>
+        <p><small>&copy; 2026 TechFest. Todos los derechos reservados.</small></p>
+    </footer>
+
 </body>
 </html>
